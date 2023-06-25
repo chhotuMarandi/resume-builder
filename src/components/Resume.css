@@ -1,0 +1,22 @@
+.profile-section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.resume {
+ text-align: center;
+ text-transform: uppercase;
+ text-decoration: underline;
+}
+
+.profile-image {
+ width: 200px;
+ height: 200px;
+ background-color: red;
+}
+
+.profile-image img {
+ width: 100%;
+ object-fit: cover;
+}
