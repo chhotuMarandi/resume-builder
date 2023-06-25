@@ -10,3 +10,7 @@
   height: 100vh;
   background-color: #eee;
 }
+
+hr {
+  margin-top: 1rem;
+}
