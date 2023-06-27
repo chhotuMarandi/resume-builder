@@ -31,3 +31,19 @@
  text-transform: capitalize;
  font-weight: 500;
 }
+
+/* table */
+
+
+
+table ,th,td{
+ border: 1px solid black;
+ border-collapse: collapse;
+ padding: 5px;
+}
+
+table {
+ width: 800px;
+ height: 150px;
+ text-align: center;
+}

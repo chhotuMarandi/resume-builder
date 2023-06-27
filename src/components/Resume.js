@@ -28,7 +28,8 @@ function Resume ({name,email,mobile,address}) {
          />
        </div>
      </section>
-     <hr /><hr />
+     <hr />
+     <hr />
      <section className='profile-info'>
        <div className='career'>
          <h3>career objective</h3>
@@ -50,16 +51,26 @@ function Resume ({name,email,mobile,address}) {
        </div>
        <div className='qualification'>
          <h3>qualification</h3>
-         <ul>
-           <li>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-             nesciunt.
-           </li>
-           <li>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-             nesciunt.
-           </li>
-         </ul>
+         <table>
+           <tr>
+             <th>university</th>
+             <th>College</th>
+             <th>Percentage</th>
+             <th>Passing Year</th>
+           </tr>
+           <tr>
+             <th>school</th>
+              <td>BHJP high school bakudi</td>
+             <td>86%</td>
+             <td>2014</td>
+           </tr>
+           <tr>
+             <th>college</th>
+             <td>Ms college Bhagalpur</td>
+             <td>59%</td>
+             <td>2016</td>
+           </tr>
+         </table>
        </div>
        <div className='experience'>
          <h3>experience</h3>
