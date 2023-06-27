@@ -1,10 +1,16 @@
+.resume {
+ width: 1000px;
+ background-color: #fff;
+ padding: 2em;
+}
+
 .profile-section{
  display: flex;
  justify-content: space-between;
  align-items: center;
 }
 
-.resume {
+.resume-heading {
  text-align: center;
  text-transform: uppercase;
  text-decoration: underline;
@@ -24,7 +30,7 @@
 .profile-info {
  display: flex;
  flex-direction: column;
- gap: 1.3rem;
+ gap: 1rem;
 }
 
 .profile-info label {
@@ -46,4 +52,30 @@ table {
  width: 800px;
  height: 150px;
  text-align: center;
+}
+
+/* personnal details */
+
+.personnal-details {
+ width: 400px;
+}
+
+.details {
+ padding: 2px;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+}
+
+ul li {
+ margin-left: 30px;
+}
+
+hr {
+ margin: 2px;
+}
+
+.profile-info h3 {
+ text-decoration: underline;
+ text-transform: uppercase;
+ margin: 1em 0;
 }

@@ -4,8 +4,8 @@ function Resume ({name,email,mobile,address}) {
 
 
  return (
-   <>
-     <h2 className='resume'>resume</h2>
+   <div className='resume'>
+     <h2 className='resume-heading'>resume</h2>
      <section className='profile-section'>
        <div className='profile-info'>
          <h1>{name}</h1>
@@ -47,6 +47,7 @@ function Resume ({name,email,mobile,address}) {
            <li>HTML</li>
            <li>CSS</li>
            <li>JavaScript</li>
+           <li>React Js</li>
          </ul>
        </div>
        <div className='qualification'>
@@ -60,7 +61,7 @@ function Resume ({name,email,mobile,address}) {
            </tr>
            <tr>
              <th>school</th>
-              <td>BHJP high school bakudi</td>
+             <td>BHJP high school bakudi</td>
              <td>86%</td>
              <td>2014</td>
            </tr>
@@ -87,18 +88,44 @@ function Resume ({name,email,mobile,address}) {
        </div>
        <div className='personnal-details'>
          <h3>personnal details</h3>
-         <label htmlFor=''>Father Name</label>
-         <p>ram kumar</p>
-         <label htmlFor=''>Father Name</label>
-         <p>ram kumar</p>
-         <label htmlFor=''>Father Name</label>
-         <p>ram kumar</p>
-         <label htmlFor=''>Father Name</label>
-         <p>ram kumar</p>
-         <label htmlFor=''>Father Name</label>
+         <div className='details'>
+           <p htmlFor=''>Father Name</p>
+           <span>:</span>
+           <p>ram kumar</p>
+         </div>
+         <div className='details'>
+           <p htmlFor=''>Date of Birth</p>
+           <span>:</span>
+           <p>05/02/1999</p>
+         </div>
+         <div className='details'>
+           <p htmlFor=''>Gender</p>
+           <span>:</span>
+           <p>Male</p>
+         </div>
+         <div className='details'>
+           <p htmlFor=''>Nationality</p>
+           <span>:</span>
+           <p>indian</p>
+         </div>
+         <div className='details'>
+           <p htmlFor=''>Martial status</p>
+           <span>:</span>
+           <p>unmarried</p>
+         </div>
+         <div className='details'>
+           <p htmlFor=''>Language known</p>
+           <span>:</span>
+           <p>Hindi, English</p>
+         </div>
+         <div className='details'>
+           <p htmlFor=''>Hobbies</p>
+           <span>:</span>
+           <p>Reading Books</p>
+         </div>
        </div>
      </section>
-   </>
+   </div>
  );
 }
 
