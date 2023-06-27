@@ -43,11 +43,15 @@ function Resume ({name,email,mobile,address}) {
        </div>
        <div className='skills'>
          <h3>skills</h3>
-         <ul>
+         <ul className='skills-grid'>
            <li>HTML</li>
+           <li>Node Js</li>
            <li>CSS</li>
+           <li>Express</li>
            <li>JavaScript</li>
+           <li>MongoDB</li>
            <li>React Js</li>
+           <li>Git Command</li>
          </ul>
        </div>
        <div className='qualification'>

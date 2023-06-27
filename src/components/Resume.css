@@ -79,3 +79,9 @@ hr {
  text-transform: uppercase;
  margin: 1em 0;
 }
+
+.skills-grid {
+ width: 500px;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+}
