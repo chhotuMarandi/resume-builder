@@ -13,8 +13,7 @@ function App() {
   return (
     <div className='App'>
       <Resume {...person} />
-      <hr />
-      <hr />
+      
     </div>
   );
 }

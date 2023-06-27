@@ -28,6 +28,65 @@ function Resume ({name,email,mobile,address}) {
          />
        </div>
      </section>
+     <hr /><hr />
+     <section className='profile-info'>
+       <div className='career'>
+         <h3>career objective</h3>
+         <ul>
+           <li>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+             voluptates vero molestias? Vitae, minus qui assumenda fugiat saepe
+             at eveniet.
+           </li>
+         </ul>
+       </div>
+       <div className='skills'>
+         <h3>skills</h3>
+         <ul>
+           <li>HTML</li>
+           <li>CSS</li>
+           <li>JavaScript</li>
+         </ul>
+       </div>
+       <div className='qualification'>
+         <h3>qualification</h3>
+         <ul>
+           <li>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+             nesciunt.
+           </li>
+           <li>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+             nesciunt.
+           </li>
+         </ul>
+       </div>
+       <div className='experience'>
+         <h3>experience</h3>
+         <ul>
+           <li>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+             nesciunt.
+           </li>
+           <li>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+             nesciunt.
+           </li>
+         </ul>
+       </div>
+       <div className='personnal-details'>
+         <h3>personnal details</h3>
+         <label htmlFor=''>Father Name</label>
+         <p>ram kumar</p>
+         <label htmlFor=''>Father Name</label>
+         <p>ram kumar</p>
+         <label htmlFor=''>Father Name</label>
+         <p>ram kumar</p>
+         <label htmlFor=''>Father Name</label>
+         <p>ram kumar</p>
+         <label htmlFor=''>Father Name</label>
+       </div>
+     </section>
    </>
  );
 }
